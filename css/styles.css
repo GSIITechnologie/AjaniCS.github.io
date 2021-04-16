@@ -169,8 +169,8 @@ ul li a:hover {
 }
 @media (max-width: 991px)
 {
-  .showcase,
-  .showcase header
+  .main,
+  .main header
   {
     padding: 40px;
   }
