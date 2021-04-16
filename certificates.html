@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/certificates.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="favicon.ico">
+    <title>certificates</title>
+  </head>
+  <body>
+    <section>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" ><img src="images/aws1.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/aws2.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/aws3.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/aws4.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/aws.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p1.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p2.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p3.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p4.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p5.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p6.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/p.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl1.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl2.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl3.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl4.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl5.png" alt=""></div>
+          <div class="swiper-slide" ><img src="images/dl.png" alt=""></div>
+        </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  </body>
+</html>
